@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JWPet</string>
+    <string name="search">非洲之旅</string>
+    <string name="setting">设置</string>
+    <string name="add">新增CD</string>
+    <string name="daily">日常</string>
+
+    <string name="pet">宠物</string>
+    <string name="adventure">奇遇</string>
+
+    <string name="select_area">选择大区</string>
+    <string name="select_server">选择服务器</string>
+</resources>

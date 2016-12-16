@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="area">
+        <item>电信一区</item>
+        <item>电信二区</item>
+        <item>电信三区</item>
+        <item>电信四区</item>
+        <item>电信五区</item>
+        <item>电信六区</item>
+        <item>电信七区</item>
+        <item>电信八区</item>
+        <item>网通（一/二）区</item>
+        <item>网通三区</item>
+    </string-array>
+</resources>

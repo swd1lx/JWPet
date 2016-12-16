@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_menu" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@+id/ll_menu"
+        android:background="@color/line_gray"/>
+
+    <LinearLayout
+        android:id="@+id/ll_menu"
+        android:background="@color/general_white"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/rl_search"
+            android:layout_width="1dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_search"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/search_selected"/>
+
+            <TextView
+                android:id="@+id/tv_search"
+                android:layout_below="@+id/iv_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/general_blue"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/rl_daily"
+            android:layout_width="1dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_daily"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/calender"/>
+
+            <TextView
+                android:id="@+id/tv_daily"
+                android:layout_below="@+id/iv_daily"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/daily"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/text_gray"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/common_title_bar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/tv_title_pet"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/pet"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="@color/general_black"/>
+
+            <TextView
+                android:id="@+id/tv_title_adventure"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/adventure"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="@color/general_black"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_cursor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="matrix"
+            android:src="@drawable/view_pager_bg" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_CBCBCB"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_wait_to_check"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_add"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/add"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+</RelativeLayout>

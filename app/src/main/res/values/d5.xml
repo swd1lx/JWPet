@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="d5">
+        <item>剑胆琴心</item>
+        <item>金榜题名</item>
+        <item>平步青云</item>
+        <item>千岛湖</item>
+        <item>乾坤一掷</item>
+        <item>幽月轮</item>
+        <item>梦江南</item>
+        <item>斗转星移</item>
+        <item>唯我独尊</item>
+        <item>华山论剑</item>
+        <item>圣墓山</item>
+        <item>笑傲江湖</item>
+        <item>山雨欲来</item>
+        <item>如梦令</item>
+        <item>枫泾古镇</item>
+        <item>风雨同舟</item>
+        <item>金戈铁马</item>
+        <item>满江红</item>
+        <item>侠客行</item>
+    </string-array>
+</resources>
